@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <video id="video" poster="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" muted src="https://player.vimeo.com/external/521253289.sd.mp4?s=ccd3abe34c16332fc8629d7fc3db948cac29f1e9&profile_id=164" width="400px"></video>
+            <div class="player-overlay">
+                <h2 class="player-title">Musica para programar</h2>
+                <div class="player-actions">
+                    <button class="button" id="backward" aria-label="retroceder 10 segundos" title="retroceder 10 segundos"></button>
+                    <button class="button" id="play" aria-label="Reproducir" title="Reproducir"></button>
+                    <button class="button" hidden id="pause" aria-label="Pausar" title="Pausar"></button>
+                    <button class="button" id="forward" aria-label="adelantar 10 segundos" title="adelantar 10 segundos"></button>
+                </div>
+                <div class="player-progress">
+                    <input id="progress" type="range" min="0" step="1">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
